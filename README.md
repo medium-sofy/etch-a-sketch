@@ -1,0 +1,2 @@
+#### Etch-a-Sketch
+A simple [Etch-a-Sketch](https://en.wikipedia.org/wiki/Etch_A_Sketch)-like page that containes pixels in a grid that are colored when the mouse hovers over them. [Part of the odin project.](https://www.theodinproject.com/lessons/foundations-etch-a-sketch)

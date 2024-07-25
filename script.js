@@ -1,3 +1,8 @@
+/* TODO:
+ - Add Styling to the page
+ - Write a ReadMe File
+ - push to github
+ */
 const container = document.querySelector(".container");
 const button = document.querySelector("button");
 let gridSize = 0;
