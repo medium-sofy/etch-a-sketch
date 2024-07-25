@@ -9,3 +9,12 @@ for(let i = 0; i < 16; i++)
         container.appendChild(div)
     }
 }
+
+const pixels = document.querySelectorAll('.pixel')
+console.log(pixels)
+pixels.forEach((pixel)=>{
+
+    pixel.addEventListener("mouseover" , () => {
+        pixel.style.backgroundColor = 'red' 
+    })
+})
