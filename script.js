@@ -21,13 +21,13 @@ for (let i = 0; i < 16; i++) {
 button.addEventListener("click", () => {
   gridSize = +prompt("Enter the new size of the canvas");
   container.innerHTML = "";
-  for (let i = 0; i < gridSize; i++) {
-    for (let j = 0; j < gridSize; j++) {
+  for (let i = 0; i < gridSize && i < 100; i++) {
+    for (let j = 0; j < gridSize && j < 100; j++) {
       let div = document.createElement("div");
       div.classList.add("pixel");
       div.style.cssText = `flex-basis: ${Math.ceil(
-        500 / gridSize - 2
-      )}px; height: ${Math.ceil(500 / gridSize - 2)}px`;
+        500 / (gridSize > 100? 100 : gridSize) - 2
+      )}px; height: ${Math.ceil(500 / (gridSize > 100? 100 : gridSize) - 2)}px`;
       div.addEventListener("mouseover", () => {
         div.style.backgroundColor = "red";
       });
