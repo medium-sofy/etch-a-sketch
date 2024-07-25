@@ -6,17 +6,15 @@ body{
     height: 100vh;
 }
 .container{
-    width: 352px;
-    height: 352px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .pixel{
-    flex-basis: 20px;
     flex-shrink: 0;
-    height: 20px;
     border: 1px solid black;
 }
