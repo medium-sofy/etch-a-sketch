@@ -19,3 +19,13 @@ body{
     flex-shrink: 0;
     border: 1px solid black;
 }
+
+button{
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 38px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
