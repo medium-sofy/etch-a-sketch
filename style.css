@@ -4,6 +4,7 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    background-color: #e5e7eb;
 }
 .container{
     width: 500px;
