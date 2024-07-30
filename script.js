@@ -30,9 +30,9 @@ button.addEventListener("click", () => {
     for (let j = 0; j < gridSize && j < 100; j++) {
       let div = document.createElement("div");
       div.classList.add("pixel");
-      div.style.cssText = `flex-basis: ${Math.ceil(
+      div.style.cssText = `flex-basis: ${Math.floor(
         500 / (gridSize > 100? 100 : gridSize) - 2
-      )}px; height: ${Math.ceil(500 / (gridSize > 100? 100 : gridSize) - 2)}px`;
+      )}px; height: ${Math.floor(500 / (gridSize > 100? 100 : gridSize) - 2)}px`;
       div.addEventListener("mouseover", () => {
         div.style.backgroundColor = "red";
       });
